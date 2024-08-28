@@ -41,7 +41,7 @@
                            $password_error="You enter a wrong password";
                         }else{
                             if(isset($_POST['g-recaptcha-response'])){
-                                $scretkey='6LfOToIpAAAAAEmNXIYR-des6jRV2S0ct8XyFMVa';
+                                $scretkey='recaptha screct key';
                                 $ip=$_SERVER['REMOTE_ADDR'];
                                 $response=$_POST['g-recaptcha-response'];
                                 $url="https://www.google.com/recaptcha/api/siteverify?secret=$scretkey&response=$response&remoteip=$ip";
@@ -88,7 +88,7 @@
                     <div class="g-recaptcha" style="transform: scale(0.66); 
                         -webkit-transform: scale(0.66); transform-origin: 0 0;
                         -webkit-transform-origin: 0 0; margin-left: 70px; margin-bottom: -10px; text-align: center; " data-theme="light"
-                        data-sitekey="6LfOToIpAAAAAIUTXURr2ZjmcT447WXIyQhSRNUm">
+                        data-sitekey="data site key here">
                     </div>   
                     <div class="forgotPass">
                         <a href="forgetpassword.php">Forget Password</a>
