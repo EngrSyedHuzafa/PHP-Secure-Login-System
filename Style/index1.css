@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(237, 247, 246);
+  }
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(77, 204, 189, 0.4);
+    margin: 20px 15px 0px 15px;
+    padding: 0px 6px 0px 6px;
+    backdrop-filter: blur(3px);
+}
+
+.listed_item li{ 
+    padding-left: 25px;    
+}
+.listed_item li a{
+    text-decoration: none; 
+    color: #231651;
+    font-family: 'Nunito';font-size: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.listed_item{
+    display: flex;
+    list-style-type: none;
+}
+.listed_item li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000000;
+    transition: width .3s;
+}
+.listed_item li a:hover::after {
+    width: 100%;
+    color: rgb(255, 145, 0);
+    /* transition: width .3s; */
+}
+.button{
+    border: 1px solid #27272a;;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color: transparent;
+    transition: 0.3s;
+    color: #27272a;
+    font-weight: bold;
+}
+.button:hover{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+
+}
+.paragraph{
+    margin: 5px 0px 0px 0px;
+    text-transform: uppercase;
+    color: #27272a;
+    font-weight: bold;
+}
+.listed_item2{
+    display: none;
+    justify-content: ;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255,0.2);
+    backdrop-filter: blur(3px);
+
+}
+.listed_item2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito';font-size: 22px;
+    font-weight: bold; 
+}
+.listed_item2 span{
+    width: 100%; 
+}
+.listed_item2 li{
+    list-style-type: none;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.5s;
+}
+.listed_item2 ul li:hover{
+        background-color: gainsboro;
+        cursor: pointer;
+}
+.listed_item2 ul{
+    text-align: center;
+    padding-left: 0px;
+}
+.sidebar{
+    display: none;
+}
+@media(max-width: 800px){
+    .hideonmobile{
+        display: none;
+    }
+    .sidebar{
+        display: block;
+    }
+}

@@ -1,0 +1,153 @@
+body {
+    /* background-image: url('pexels-life-of-pix-8892.jpg'); */
+    /* background-size: 1024px 800px; */
+    background-color: rgb(237, 247, 246);
+  }
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.div2{
+    height: 550px;
+    width: 325px;
+    background-color: rgb(77, 204, 189, 0.4);
+    border-radius: 30px;
+    color: #231651;;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.div2a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 180px;
+    background-color: #4DCCBD;
+    /* background-color: transparent; */
+    border-radius: 30px 30px 140px 140px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.div2b{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    width: 325px;
+    height: 375px;
+    border-radius: 0px 0px 30px 30px;
+}
+#error{
+    text-align: center;
+}
+.login{
+    font-size:30px;
+    color: #231651;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 100;
+}
+.logina{
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 100;
+}
+.user{
+    text-align: center;
+    margin-right: 20px;
+    /* position: relative;
+    left: 30px; */
+}
+.user_input{
+    border-radius: 10px;
+    padding: 10px 0px 10px 30px;
+    margin-bottom: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #f2f2f2;
+    width: 210px;
+}
+.user_icon{
+    color: #231651;
+    position: relative;
+    left: 28px;
+    top: 0px;
+}
+.password{
+    text-align: center;
+}
+.password_input{
+    border-radius: 10px;
+    padding: 10px 0px 10px 30px;
+    margin-bottom: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #f2f2f2;
+    width: 210px;
+}
+.lock_icon{
+    color: #231651;
+    position: relative;
+    left: 27px;
+    top: 0px;
+}
+.eyee{
+    color: #231651;
+    position: relative;
+    Right: 30px;
+    top: 0px;
+}
+.forgotPass{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: "Exo 2", sans-serif;
+}
+.d_button{
+    text-align: center;
+}
+.button{
+    width: 238px;
+    padding: 8px 0px 8px 0px;
+    cursor: pointer;
+    background-color: #4DCCBD;
+    color: #231651;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-family: "Exo 2", sans-serif;
+}
+.button:hover{
+    background-color: #4de5d4;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    color: #231651;
+}
+.icon i:hover{
+    cursor: pointer;
+    color: #27272a;
+    font-size: 29px;
+}
+.register a{
+    font-weight: bold;
+}
+.register {
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;   
+}
+.err{
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    background-color: #ffdddd;
+    margin: 0px 0px 10px 0px;
+    width: 238px;
+    text-align: center;
+    margin-left: 65px;
+    
+}
+.paragraph{
+    text-align: center;
+}
