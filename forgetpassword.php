@@ -41,7 +41,7 @@
                         $mail->isSMTP();
                         $mail->SMTPAuth = true;
                         $mail->SMTPSecure = "tls";
-                        $mail->Host = 'smtp.gmail.com';
+                        $mail->Host = 'your mail protocol';
                         // $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                         $mail->Port = 587;
                     
